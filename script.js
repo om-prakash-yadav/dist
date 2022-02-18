@@ -12,14 +12,14 @@ var padding = {top:20, right:40, bottom:0, left:0},
         var data = [
                     {"label":"Samhitha",  "value":1,  "question":"Sing a song with Allu Bhaiya "}, // padding
                     {"label":"Subham",  "value":2,  "question":"Preetha Didi ke saath gaana gao "}, //font-family
-                    {"label":"SUZUKI",  "value":3,  "question":"What CSS property is used for changing the color of text?"}, //color
-                    {"label":"HONDA",  "value":4,  "question":"What CSS property is used for changing the boldness of text?"}, //font-weight
-                    {"label":"FERRARI",  "value":5,  "question":"What CSS property is used for changing the size of text?"}, //font-size
-                    {"label":"APARTMENT",  "value":6,  "question":"What CSS property is used for changing the background color of a box?"}, //background-color
-                    {"label":"IPAD PRO",  "value":7,  "question":"Which word is used for specifying an HTML tag that is inside another tag?"}, //nesting
-                    {"label":"LAND",  "value":8,  "question":"Which side of the box is the third number in: margin:1px 1px 1px 1px; ?"}, //bottom
-                    {"label":"MOTOROLLA",  "value":9,  "question":"What are the fonts that don't have serifs at the ends of letters called?"}, //sans-serif
-                    {"label":"BMW", "value":10, "question":"With CSS selectors, what character prefix should one use to specify a class?"}
+                    {"label":"Sonakshi",  "value":3,  "question":" wait spin again"}, //color
+                    {"label":"HONDA",  "value":4,  "question":" wait spin again"}, //font-weight
+                    {"label":"FERRARI",  "value":5,  "question":" wait spin again"}, //font-size
+                    {"label":"APARTMENT",  "value":6,  "question":" wait spin again"}, //background-color
+                    {"label":"IPAD PRO",  "value":7,  "question":" wait spin again"}, //nesting
+                    {"label":"LAND",  "value":8,  "question":" wait spin again"}, //bottom
+                    {"label":"MOTOROLLA",  "value":9,  "question":" wait spin again"}, //sans-serif
+                    {"label":"BMW", "value":10, "question":" wait spin again"}
         ];
         var svg = d3.select('#chart')
             .append("svg")
