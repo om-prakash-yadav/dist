@@ -30,3 +30,11 @@ text{
         -webkit-transform:translate(0,-50%);
                 transform:translate(0,-50%);
     } */
+
+    .header{
+        color: #fff;
+        display: absolute;
+        font-size: xx-large;
+        top: 10px;
+        left: 50%;
+    }

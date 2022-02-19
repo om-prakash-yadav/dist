@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body{
@@ -58,7 +57,9 @@ body{
 } */
 
 .loader span::before{
-    content: '';
+    content: 'ISTE';
+    color:yellow;
+    font-size: large;
     position: absolute;
     top: 0;
     left: 0;
