@@ -102,7 +102,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
                 .each("end", function(){
                     //mark question as seen
                     d3.select(".slice:nth-child(" + (picked + 1) + ") path")
-                        .attr("fill", "white");
+                        .attr("fill", "yellow");
                     //populate question
                     d3.select("#question h1")
                         .text(data[picked].question);
