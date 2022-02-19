@@ -10,16 +10,30 @@ var padding = {top:20, right:40, bottom:0, left:0},
             //randomNumbers = getRandomNumbers();
         //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
         var data = [
-                    {"label":"Samhitha",  "value":1,  "question":"Sing a song with Allu Bhaiya "}, // padding
-                    {"label":"Subham",  "value":2,  "question":"Preetha Didi ke saath gaana gao "}, //font-family
-                    {"label":"Sonakshi",  "value":3,  "question":" wait spin again"}, //color
-                    {"label":"HONDA",  "value":4,  "question":" wait spin again"}, //font-weight
-                    {"label":"FERRARI",  "value":5,  "question":" wait spin again"}, //font-size
-                    {"label":"APARTMENT",  "value":6,  "question":" wait spin again"}, //background-color
-                    {"label":"IPAD PRO",  "value":7,  "question":" wait spin again"}, //nesting
-                    {"label":"LAND",  "value":8,  "question":" wait spin again"}, //bottom
-                    {"label":"MOTOROLLA",  "value":9,  "question":" wait spin again"}, //sans-serif
-                    {"label":"BMW", "value":10, "question":" wait spin again"}
+                    {"label":"Avinash Y",  "value":1,  "question":""}, // padding
+                    {"label":"Manvitha Reddy",  "value":2,  "question":" wait spin again"}, //font-family
+                    {"label":"Soumyadip Debnath",  "value":3,  "question":" wait spin again"}, //color
+                    {"label":"Shubham kumar",  "value":4,  "question":" wait spin again"}, //font-weight
+                    {"label":"Ayush Anand",  "value":5,  "question":" wait spin again"}, //font-size
+                    {"label":"Zeba Haq",  "value":6,  "question":" wait spin again"}, //background-color
+                    {"label":"Meghna",  "value":7,  "question":" wait spin again"}, //nesting
+                    {"label":"Akash Kumar Singh",  "value":8,  "question":" wait spin again"}, //bottom
+                    {"label":"Mayank Pratap Singh",  "value":9,  "question":" wait spin again"}, //sans-serif
+                    {"label":"Satyajit Paul", "value":10, "question":" wait spin again"},
+                    {"label":"Tulika Ranjan", "value":11, "question":" wait spin again"},
+                    {"label":"Rohan Kumar", "value":12, "question":" wait spin again"},
+                    {"label":"Rahul Dey", "value":13, "question":" wait spin again"},
+                    {"label":"Harsh Raj Singh", "value":14, "question":" wait spin again"},
+                    {"label":"Muskan Kumari", "value":15, "question":" wait spin again"},
+                    {"label":"Priyanshu kumar", "value":16, "question":" wait spin again"},
+                    {"label":"Nimcheki Sherpa", "value":17, "question":" wait spin again"},
+                    {"label":"Surya Konar", "value":18, "question":" wait spin again"},
+                    {"label":"Kriti Shrivastava", "value":19, "question":" wait spin again"},
+                    {"label":"Abhishek Prusty", "value":20, "question":" wait spin again"},
+                    {"label":"Sukamal Samanta", "value":21, "question":" wait spin again"},
+                    {"label":"Srijita Saha", "value":22, "question":" wait spin again"},
+                    {"label":"Shouro Alok Raha", "value":23, "question":" wait spin again"},
+                    {"label":"Deboshree Yadav", "value":24, "question":" wait spin again"},
         ];
         var svg = d3.select('#chart')
             .append("svg")
@@ -88,7 +102,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
                 .each("end", function(){
                     //mark question as seen
                     d3.select(".slice:nth-child(" + (picked + 1) + ") path")
-                        .attr("fill", "#111");
+                        .attr("fill", "white");
                     //populate question
                     d3.select("#question h1")
                         .text(data[picked].question);
@@ -106,7 +120,7 @@ var padding = {top:20, right:40, bottom:0, left:0},
             .attr("transform", "translate(" + (w + padding.left + padding.right) + "," + ((h/2)+padding.top) + ")")
             .append("path")
             .attr("d", "M-" + (r*.15) + ",0L0," + (r*.05) + "L0,-" + (r*.05) + "Z")
-            .style({"fill":"black"});
+            .style({"fill":"yellow"});
         //draw spin circle
         container.append("circle")
             .attr("cx", 0)
