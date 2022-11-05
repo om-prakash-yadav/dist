@@ -10,30 +10,13 @@ var padding = {top:20, right:40, bottom:0, left:0},
             //randomNumbers = getRandomNumbers();
         //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
         var data = [
-                    {"label":"Avinash Y",  "value":1,  "question":""}, // padding
-                    {"label":"Manvitha Reddy",  "value":2,  "question":" wait spin again"}, //font-family
-                    {"label":"Soumyadip Debnath",  "value":3,  "question":" wait spin again"}, //color
-                    {"label":"Shubham kumar",  "value":4,  "question":" wait spin again"}, //font-weight
-                    {"label":"Ayush Anand",  "value":5,  "question":" wait spin again"}, //font-size
-                    {"label":"Zeba Haq",  "value":6,  "question":" wait spin again"}, //background-color
-                    {"label":"Meghna",  "value":7,  "question":" wait spin again"}, //nesting
-                    {"label":"Akash Kumar Singh",  "value":8,  "question":" wait spin again"}, //bottom
-                    {"label":"Mayank Pratap Singh",  "value":9,  "question":" wait spin again"}, //sans-serif
-                    {"label":"Satyajit Paul", "value":10, "question":" wait spin again"},
-                    {"label":"Tulika Ranjan", "value":11, "question":" wait spin again"},
-                    {"label":"Rohan Kumar", "value":12, "question":" wait spin again"},
-                    {"label":"Rahul Dey", "value":13, "question":" wait spin again"},
-                    {"label":"Harsh Raj Singh", "value":14, "question":" wait spin again"},
-                    {"label":"Muskan Kumari", "value":15, "question":" wait spin again"},
-                    {"label":"Priyanshu kumar", "value":16, "question":" wait spin again"},
-                    {"label":"Nimcheki Sherpa", "value":17, "question":" wait spin again"},
-                    {"label":"Surya Konar", "value":18, "question":" wait spin again"},
-                    {"label":"Kriti Shrivastava", "value":19, "question":" wait spin again"},
-                    {"label":"Abhishek Prusty", "value":20, "question":" wait spin again"},
-                    {"label":"Sukamal Samanta", "value":21, "question":" wait spin again"},
-                    {"label":"Srijita Saha", "value":22, "question":" wait spin again"},
-                    {"label":"Shouro Alok Raha", "value":23, "question":" wait spin again"},
-                    {"label":"Deboshree Yadav", "value":24, "question":" wait spin again"},
+                    {"label":"1",  "value":1,  "question":""}, // padding
+                    {"label":"2",  "value":2,  "question":" wait spin again"}, //font-family
+                    {"label":"3",  "value":3,  "question":" wait spin again"}, //color
+                    {"label":"4",  "value":4,  "question":" wait spin again"}, //font-weight
+                    {"label":"5",  "value":5,  "question":" wait spin again"}, //font-size
+                    {"label":"6",  "value":6,  "question":" wait spin again"}, //background-color
+                   
         ];
         var svg = d3.select('#chart')
             .append("svg")
